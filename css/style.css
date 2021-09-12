@@ -276,6 +276,12 @@ svg path{
   color: white;
 }
 
+
+#contact-image{
+height: 20rem;
+width: 27.85rem;
+}
+
 #owl-images{
   margin-left: 10%; 
   height: 80%; 
@@ -553,6 +559,12 @@ svg path{
     margin-top: 2em;
   }
 
+  #contact-image{
+    height: 18rem;
+    width: 20.65rem;
+  }
+    
+
   .contact-info {
     padding: 0 2rem
   }
@@ -562,6 +574,7 @@ svg path{
     font-size: 4em !important;
     color: black;
     line-height: 50px;
+    text-align: justify;
   }
 
   h2 {
@@ -578,6 +591,10 @@ svg path{
     padding-bottom: 20px;
   }
 
+  #uil-me-x{
+    font-size: 20px;
+
+  }
   .navbar-expand-sm .navbar-nav .nav-link {
     padding: 3px 20px;
   }
