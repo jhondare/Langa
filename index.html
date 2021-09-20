@@ -216,7 +216,7 @@
             <div class="contact-form">
               <h2 class="mb-4">Want to know when we would begin? Send us a message!</h2>
 
-              <form action="" method="get" name="google-sheet" id="formpush origin mast">
+              <form action="" method="get" name="google-sheet" id="form">
                 <div id="form_alerts"></div>
                 <div class="row">
                   <div class="col-lg-6 col-12">
@@ -265,7 +265,7 @@
             fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => $("#form_alerts").html("<div class='alert alert-success'>Thank you, message sent successfully.</div>"))
             .catch(error => $("#form_alerts").html("<div class='alert alert-danger'>Ooops! message not sent.</div>"))
-            .then(response=>$("#form")[0].reset());
+            .then(response=>$("#form")[0].reset())
         })
     </script>
 
