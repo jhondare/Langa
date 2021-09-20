@@ -559,12 +559,7 @@ width: 27.85rem;
     margin-top: 2em;
   }
 
-  #contact-image{
-    height: 18rem;
-    width: 20.65rem;
-  }
-    
-
+  
   .contact-info {
     padding: 0 2rem
   }
@@ -598,6 +593,12 @@ width: 27.85rem;
   .navbar-expand-sm .navbar-nav .nav-link {
     padding: 3px 20px;
   }
+
+  #contact-image{
+    height: 20rem;
+    width: 20rem;
+    }
+    
 }
 @media (max-width: 580px) {
 	.animated-info {
