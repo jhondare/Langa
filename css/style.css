@@ -588,6 +588,7 @@ width: 27.85rem;
 
   #uil-me-x{
     font-size: 20px;
+    margin-left: 5%;
 
   }
   .navbar-expand-sm .navbar-nav .nav-link {
@@ -597,7 +598,14 @@ width: 27.85rem;
   #contact-image{
     height: 20rem;
     width: 20rem;
-    }
+  }
+
+  #animated-p{
+    text-decoration: none;
+    text-align: justify;
+  }
+
+
     
 }
 @media (max-width: 580px) {
