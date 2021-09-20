@@ -589,8 +589,12 @@ width: 27.85rem;
   #uil-me-x{
     font-size: 20px;
     margin-left: 5%;
-
   }
+
+  .h-class, .animated-info{
+    text-align: justify;
+  }
+
   .navbar-expand-sm .navbar-nav .nav-link {
     padding: 3px 20px;
   }
